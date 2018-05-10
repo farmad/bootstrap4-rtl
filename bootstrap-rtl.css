@@ -510,6 +510,11 @@ dl.row > dd + dt {
     .offset-md-11 {
         margin-right: 91.66667%;
     }
+
+    .mr-md-auto, .mx-md-auto {
+        margin-right: unset !important;
+        margin-left: auto !important;
+    }
 }
 
 @media (min-width: 992px) {
